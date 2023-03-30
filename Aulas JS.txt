@@ -1,0 +1,28 @@
+AULAS JAVASCRIPT UDEMY
+
+console.log(); - função que serve para mostrar algo no console da tela, sendo um array, variável, que seja.
+
+JS - JavaScript não separa tipos de números. Tudo é number em jS.
+
+//
+
+NODE - Para acessar as pastas do projeto no terminal, basta abrí-lo no VSCode que o próprio programa já vai abrir a pasta base do projeto. Assim, basta digitar cd + nome da subpasta ou o nome do arquivo diretamente. Ex.:
+
+cd aula5/
+index.js
+
+//
+
+Os scripts criados dentro da tag <head> HTML não são recomendados, pois podem atrasar o funcionamento da página. O ideal seria utilizar o script dentro do body ou em um arquivo separado.
+
+//
+
+VARIÁVEIS
+LET é != de VAR. VAR é mais antigo, atualmente utiliza-se o LET
+LET - variável modificável.
+Uma variável pode ser inicializada sem nada, 'undefined'.
+Variáveis com let não podem ser recriadas, apenas redeclaradas com outro valor.
+
+CONST é uma variável não modificável.
+Ela precisa ser inicializada e já declarada diretamente.
+
