@@ -26,3 +26,11 @@ Variáveis com let não podem ser recriadas, apenas redeclaradas com outro valor
 CONST é uma variável não modificável.
 Ela precisa ser inicializada e já declarada diretamente.
 
+Template Strings são usadas para se utilizar variáveis dentro de strings, sua sintaxe é:
+	- Abre a string com cifrão ` `
+	- Digite a frase normalmente e nas strings basta abrir com o sinal de ${nome da variável}
+	
+Utiliza-se o LET no lugar no VAR hoje em dia por conta da liberdade de mudança que o VAR dava ao desenvolvedor. Portanto, para padronizar e não ficar redeclarando ela ficou padrão o LET.
+
+
+
