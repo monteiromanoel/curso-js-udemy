@@ -32,5 +32,22 @@ Template Strings são usadas para se utilizar variáveis dentro de strings, sua 
 	
 Utiliza-se o LET no lugar no VAR hoje em dia por conta da liberdade de mudança que o VAR dava ao desenvolvedor. Portanto, para padronizar e não ficar redeclarando ela ficou padrão o LET.
 
+//Tipos de Dados Primitivos
+
+const nome = 'Manoel'; //String
+const nome1 = "Manoel"; //String
+const nome2 = `Manoel`; //String
+
+const num1 = 10; //Number
+const num2 = 10.5; //Number
+
+let nomeAluno; //Undefined - que não aponta para lugar nenhum na memória. Essa é utilizada somente automaticamente pela linguagem. 
+const sobrenomeAluno = null; // Nulo - que não aponta para lugar nenhum na memória. Esse é usado para se explicitar que o valor será nulo.
+
+const alunoAprovado = false; //Valor True ou False.
+
+//Para checar o tipo.
+console.log(typeof alunoAprovado);
+
 
 
