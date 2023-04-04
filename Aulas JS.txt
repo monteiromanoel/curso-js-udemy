@@ -49,5 +49,8 @@ const alunoAprovado = false; //Valor True ou False.
 //Para checar o tipo.
 console.log(typeof alunoAprovado);
 
+O comando parseInt(...); e parseFloat(...) converte strings em numbers e Number(...).
+
+
 
 

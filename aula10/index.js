@@ -14,6 +14,10 @@ const num1 = 2;
 const num2 = 18;
 const num3 = "5";
 let num4 = 21;
+const num5 = parseInt('10'); //Converte a string em Int
+const num6 = parseFloat('5.23'); //Converte a string em float
+const num7 = Number('18.4');
+
 
 console.log('Soma ->', num1 + num2);
 console.log('Concatenação ->', num1 + num3);
@@ -24,6 +28,7 @@ console.log('Potenciação ->', num1 ** num2);
 console.log('Resto da Divisão ->', num1 % num2);
 console.log('Incremento ->', ++num4); //Uma boa prática é fazer essa operação antes de se mostrar o dado.
 console.log('Decremento ->', --num4) //Uma boa prática é fazer essa operação antes de se mostrar o dado.
+
 
 let contador = 1;
 contador += 2; //É o mesmo que contador +  contador + 2;
