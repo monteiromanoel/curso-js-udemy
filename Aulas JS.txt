@@ -51,6 +51,12 @@ console.log(typeof alunoAprovado);
 
 O comando parseInt(...); e parseFloat(...) converte strings em numbers e Number(...).
 
+alert(''); é o mesmo que window.alert(''); - Faz um alerta na página.
+confirm(''); é o mesmo que window.confirm(''); - Faz um prompt com ok ou cancelar na página.
+prompt(''); é o mesmo que window.prompt(''); - Pede para o usuário digitar algo.
+
+
+
 
 
 
