@@ -55,7 +55,12 @@ alert(''); é o mesmo que window.alert(''); - Faz um alerta na página.
 confirm(''); é o mesmo que window.confirm(''); - Faz um prompt com ok ou cancelar na página.
 prompt(''); é o mesmo que window.prompt(''); - Pede para o usuário digitar algo.
 
+Para utilizar aspas em strings, há várias formas:
+let umaString = 'Um "texto"'; //Assim irá utilizar as aspas de dentro da string normalmente.
+let umaString = "Um 'texto'"; //Assim irá utilizar as aspas de dentro da string normalmente.
+let umaString = 'Um \"texto\"'; //Assim irá utilizar as aspas de dentro da string normalmente.
 
+Strings são iteradas e indexáveis. Ou seja, possuem um índice. "Manoel" pode ser 012345 
 
 
 
