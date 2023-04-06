@@ -62,6 +62,10 @@ let umaString = 'Um \"texto\"'; //Assim irá utilizar as aspas de dentro da stri
 
 Strings são iteradas e indexáveis. Ou seja, possuem um índice. "Manoel" pode ser 012345 
 
+document.body = Dá ao JS a possibilidade de alterar elementos do corpo da página.
+Existem vários sub-comandos para se colocar junto, como document.body.innerHTML = " ";. 
+document.body é o mesmo que window.document.body; Não faz parte do Node.js
 
+= é atribuição. += é incremento + atribuição.
 
 
